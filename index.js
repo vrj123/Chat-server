@@ -7,7 +7,7 @@ const cors = require("cors");
 
 const io = socketIO(server, {
   cors: {
-    origin: "https://chat-app-q9ca.vercel.app/",
+    origin: "https://chat-app-q9ca.vercel.app",
     methods: ["GET", "POST"],
   },
 });
